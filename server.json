@@ -1,0 +1,29 @@
+{  
+  "transactions": [
+    {
+      "id": 1,
+      "description": "Desenvolvimento de Site",
+      "type": "income",
+      "price": 12000,
+      "category": "Venda",
+      "createdAt": "2023-03-29T20:12:34.122Z"
+    },
+    {
+      "id": 2,
+      "description": "Comida",
+      "type": "outcome",
+      "price": 120,
+      "category": "Alimentação",
+      "createdAt": "2023-03-29T20:11:34.122Z"
+    },
+    {
+      "id": 3,
+      "description": "Venda de carros",
+      "type": "income",
+      "price": 40000,
+      "category": "Venda",
+      "createdAt": "2023-03-29T20:58:34.122Z"
+    }
+    
+  ]
+}
