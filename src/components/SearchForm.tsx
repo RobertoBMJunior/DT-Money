@@ -37,7 +37,9 @@ async function handleSearchTransaction(data: SearchFormInputs) {
             />
             <button disabled={isSubmitting}>
                 <MagnifyingGlass size={20}/>
-                Buscar
+                <span className='buscar'>
+                    Buscar
+                </span>
             </button>
         </SearchContainer>
     )

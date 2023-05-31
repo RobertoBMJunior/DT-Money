@@ -8,6 +8,24 @@ export const SummaryContainer = styled.div`
     padding: 0 10rem;
 
     margin-top: -82px;
+
+    @media only screen and (max-width: 1300px) {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    @media only screen and (max-width: 957px) {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        
+        overflow-x: auto;
+
+        &::-webkit-scrollbar {
+            width: 0;
+        }
+    }
+
+
 `
 
 interface PictureContainerProps {

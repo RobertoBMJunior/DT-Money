@@ -56,5 +56,30 @@ export const SearchContainer = styled.form`
         }
     }
 
-    
+    @media only screen and (max-width: 1300px) {
+        padding-left: 5rem;
+        padding-right: 5rem;
+    }
+
+    @media only screen and (max-width: 957px) {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    @media only screen and (max-width: 550px) {
+        button{
+            padding: 0.875rem 1.2rem;
+            
+            .buscar{
+                display: none;
+            }
+        }
+
+    }
+
+    @media only screen and (max-width: 365px) {
+        button{
+            padding: 0.875rem 0.6rem;
+        }
+    }
 `

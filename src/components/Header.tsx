@@ -9,7 +9,9 @@ export function Header() {
         <HeaderContainer>
             <div className="logo">
                 <img src={logo} alt="" />
-                DT Money
+                <span>
+                    DT Money
+                </span>
             </div>
 
             <Dialog.Root>

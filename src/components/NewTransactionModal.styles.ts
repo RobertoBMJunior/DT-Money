@@ -66,6 +66,27 @@ export const Content = styled(Dialog.Content)`
 
     }
 
+    @media only screen and (max-width: 550px) {
+        min-width: 28rem;
+        padding: 3rem 1.5rem 2.5rem;
+    }
+
+    @media only screen and (max-width: 480px) {
+        min-width: 24rem;
+    }
+
+    @media only screen and (max-width: 400px) {
+        min-width: 22rem;
+    }
+
+    @media only screen and (max-width: 365px) {
+        min-width: 20rem;
+    }
+
+    @media only screen and (max-width: 330px) {
+        min-width: 16rem;
+    }
+
 `
 
 export const CloseButton = styled(Dialog.Close)`
